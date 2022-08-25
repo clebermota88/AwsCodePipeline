@@ -1,0 +1,9 @@
+version: 0.0
+os: linux
+hooks:
+  AfterInstall:
+    - location: scripts/stop_container.sh
+      timeout: 180
+  ApplicationStart:
+    - location: scripts/start_container.sh
+      timeout: 3600
