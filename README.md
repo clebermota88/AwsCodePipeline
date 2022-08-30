@@ -1,6 +1,6 @@
 # AwsCodePipeline
 Utilização do ECR,  CodeCommit,  CodeBuild, CodeDeploy.
-Implantação automática do app em HTML com CI/CD CodePipeline. Sobe em uma EC2 para testes e já manda um SNS para aprovação e subir em produção.
+Implantação automática do app em HTML com CI/CD CodePipeline. Aplicação sobe em uma EC2 de testes e já manda um SNS para aprovação, assim que aprovado, sobe em produção.
 Utilizando Docker.
 
 ![image](https://user-images.githubusercontent.com/110396744/186544718-4d733523-b130-4407-8697-7180905f369e.png)
